@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+.current-price, .chart-container, .error, .loading {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.search-container {
+  margin: 2rem 0;
+}
+
+.search-container form {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.search-container button {
+  padding: 0.5rem 1rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #535bf2;
+}
+
+.chart-container {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.indicators {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.indicator {
+  padding: 1rem;
+  background: rgb(112, 185, 188);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.indicator h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+.trending {
+    color: #6ccb24;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    background-color: #f0e2e2;
+
+}
+
+.current-price {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.error {
+  color: #dc2626;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.loading {
+  text-align: center;
+  margin: 1rem 0;
+  color: #666;
+}

@@ -14,47 +14,41 @@ This project is a web application that allows users to analyze and predict stock
 
 1. **Clone the repository:**
 
-```bash
-   git clone https://github.com/prabha55555/Stock-Trend-Analytics.git
-   cd project
-   ```
+    ```bash
+    git clone https://github.com/prabha55555/Stock-Trend-Analytics.git
+    cd project
+    ```
 
-2. **Install Dependencies:
- ```bash
+2. **Install Dependencies:**
+
+    ```bash
     npm install
     ```
 
-3.Start the application:
-   ```bash
+3. **Start the application:**
+
+    ```bash
     npm start
     ```
 
-## Usage :
+## Usage
 
-Enter a BSE stock symbol (e.g., TCS, RELIANCE, INFY) in the search bar.
-
-View the current and predicted stock prices.
-
-Analyze the stock data and predictions using the provided charts.
+1. Enter a BSE stock symbol (e.g., TCS, RELIANCE, INFY) in the search bar.
+2. View the current and predicted stock prices.
+3. Analyze the stock data and predictions using the provided charts.
 
 ## Tech Stack
 
-Frontend:
+**Frontend:**
 
-React: A JavaScript library for building user interfaces. It is used to create the components and manage the state of the application.
+- **React:** A JavaScript library for building user interfaces. It is used to create the components and manage the state of the application.
+- **TensorFlow.js:** A JavaScript library for training and deploying machine learning models in the browser. It is used to create and train the neural network model for predicting stock prices.
+- **Axios:** A promise-based HTTP client for the browser and Node.js. It is used to fetch stock data from the Alpha Vantage API.
 
-TensorFlow.js: A JavaScript library for training and deploying machine learning models in the browser. It is used to create and train the neural network model for predicting stock prices.
+**Backend:**
 
-Axios: A promise-based HTTP client for the browser and Node.js. It is used to fetch stock data from the Alpha Vantage API.
-
-Backend :
-
-AlphaVantage API: A service that provides real-time and historical stock market data. It is used to fetch historical stock data for the BSE stocks.
+- **AlphaVantage API:** A service that provides real-time and historical stock market data. It is used to fetch historical stock data for the BSE stocks.
 
 ## License
 
 This project is licensed under the MIT License.
-
-
-
-

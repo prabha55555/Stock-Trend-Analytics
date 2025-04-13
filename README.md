@@ -2,6 +2,10 @@
 
 This project is a web application that allows users to analyze and predict stock prices for Indian stocks listed on the BSE (Bombay Stock Exchange). The application fetches historical stock data, uses TensorFlow.js to create and train a neural network model, and predicts future stock prices based on the historical data.
 
+## DEMO
+
+https://github.com/user-attachments/assets/18d16340-452d-47cc-a7f2-a26e07b8759b
+
 ## Features
 
 - Fetches historical stock data from the Alpha Vantage API
@@ -53,6 +57,4 @@ This project is a web application that allows users to analyze and predict stock
 
 This project is licensed under the MIT License.
 
-## DEMO
 
-https://github.com/user-attachments/assets/18d16340-452d-47cc-a7f2-a26e07b8759b
